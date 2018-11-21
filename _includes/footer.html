@@ -42,8 +42,6 @@
         </div>
         <!--end of widget-->
       </div>
-
-      </div>
     </div>
     <!--end of row-->
     <div class="row">
@@ -108,7 +106,6 @@
   </div>
   <!--end of container-->
 </footer>
-</div>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/flickr.js"></script>
@@ -124,6 +121,11 @@
 <script src="js/scripts.js"></script>
 <script  src="js/thankyou.js"></script>
 <script  src="js/backtotop.js"></script>
+<script>
+  $(document).ready(function(){
+      $('[data-toggle="popover"]').popover(); 
+  });
+</script>
 
 {% for student in site.data.students %}
 {% if student.lat and student.lng %}

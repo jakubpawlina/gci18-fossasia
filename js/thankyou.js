@@ -1,7 +1,9 @@
 ﻿var items = [
 'Thank you for your contributions!',
+'আপনার অবদানের জন্য আপনাকে ধন্যবাদ!',
 'Merci pour vos contributions!',
 'Kea le leboha ka menehelo ea hau!',
+'Tänan teid panuse eest!',
 'आपके योगदानों के लिए धन्यवाद',
 'Dziękujemy za Twój wkład!',
 'Danke für Ihre Beiträge!',
@@ -12,10 +14,18 @@
 '공헌 해 주셔서 감사합니다',
 'ඔබගේ දායකත්වයට ස්තූතියි!',
 '感谢您的贡献。',
+'感謝您的貢獻。',
 'आपल्या योगदानाबद्दल धन्यवाद!',
 'Շնորհակալություն, նպաստելու համար',
 'благодарю вас за вклад',
-'உங்கள் பங்களிப்பிற்கு நன்றி'
+'உங்கள் பங்களிப்பிற்கு நன்றி',
+'Salamat sa iyong kontribusyon!',
+'ਯੋਗਦਾਨ ਪਾਉਣ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ',
+'તમારા યોગદાન બદલ આભાર!',
+'Tak for dine bidrag!',
+'Grazie per aver contribuito!',
+'Go raibh maith agat as do chuid ranníocaíochtaí!',
+'Terimakasih atas kontribusi anda!'
 ];
 
 var app = document.getElementById('app');
@@ -35,7 +45,7 @@ var typingEffect = function typingEffect() {
    setTimeout(function () {
      app.innerHTML = '';
      typingEffect();
-   }, 1000);
+   }, 3000);
  }
 };
 
